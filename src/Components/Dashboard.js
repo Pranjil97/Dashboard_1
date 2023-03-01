@@ -1,12 +1,15 @@
 import React from 'react'
+import DashboardData from './DashboardData'
+import Navbar from './Navbar'
+import Sidebar from './Sidebar'
 
 const Dashboard = () => {
   return (
-    <div className=' min-h-screen bg-red-300 flex'>
-      <aside className='bg-blue-100 w-[350px]'>This is the sidebar</aside>
-      <div className='bg-green-200 w-screen'>
-        <nav className='bg-yellow-100 h-[80px]'>This is the navbar</nav>
-        <div className='bg-purple-200 min-h-screen '>This is the Home Date</div>
+    <div className=' min-h-screen flex bg-gray-100'>
+      <Sidebar/>
+      <div className='w-screen'>
+        <Navbar/>
+        <DashboardData/>
       </div>
     </div>
   )
