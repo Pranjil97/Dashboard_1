@@ -2,33 +2,37 @@ import dashboardicon from '../Assets/dashboardicon.png'
 import revenueicon from '../Assets/revenueicon.png'
 import errorsicon from '../Assets/errorsicon.png'
 import followersicon from '../Assets/followersicon.png'
+import updateicon from '../Assets/updateicon.png'
+import calendaricon from '../Assets/calendaricon.png'
+import clockicon from '../Assets/clockicon.png'
 
 let data=[{
     img:`${dashboardicon}`,
     heading:"Number",
     capacity:"150GB",
-    icon:"icon",
-    tool:"Update Now"},
+    icon:`${updateicon}`,
+    tool:"Update Now"
+  },
 
     {
     img:`${revenueicon}`,
     heading:"Revenue",
     capacity:"$ 1,345",
-    icon:"icon",
+    icon:`${calendaricon}`,
     tool:"Last day"},
 
     {
     img:`${errorsicon}`,
     heading:"Errors",
     capacity:"23",
-    icon:"icon",
+    icon:`${clockicon}`,
     tool:"In the last hour"},
 
     {
     img:`${followersicon}`,
     heading:"Followers",
     capacity:"+45K",
-    icon:"icon",
+    icon:`${updateicon}`,
     tool:"Update Now"}
   ]
 

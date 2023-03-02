@@ -17,7 +17,7 @@ const Widgets = (props) => {
             </div>
           </div>
           <div className="flex w-[330px] mx-auto space-x-2">
-            {/* <img src="" alt="icon" className="mt-[2px]"></img> */}
+            <img src={data.icon} alt="icon" className=" h-[20px] mt-[5px] ml-[5px]"></img>
             <div className="text-sm mt-[5px] text-gray-500 text-l">{data.tool}</div>
           </div>
         </div>
