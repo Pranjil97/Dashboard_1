@@ -3,7 +3,6 @@ import React from 'react'
 const Widgets = (props) => {
 
   let {data} = props;
-  console.log(data.capacity)
 
   return (
     <div className='flex space-x-8'>
