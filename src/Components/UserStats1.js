@@ -1,6 +1,7 @@
 import React from 'react'
 import updateicon2 from '../Assets/updateicon2.png'
 import clockicon from '../Assets/clockicon.png'
+import LineChart from './LineChart'
 
 const UserStats1 = () => {
   return (
@@ -8,7 +9,7 @@ const UserStats1 = () => {
       <div className='bg-white w-[965px] border-2 flex flex-col justify-start place-items-start p-4 font-base'>
         <h1 className='text-2xl text-black opacity-80'>User Behavior</h1>
         <p className='text-sm text-gray-400'>24 Hours performance</p>
-        <div className='w-full h-[375px] border-b flex justify-center place-items-center'>Line Chart</div>
+        {/* <div className='w-full h-[375px] border-b flex justify-center place-items-center'><LineChart/></div> */}
         <div className='text-sm text-gray-400 mt-3 flex gap-1'>
             <img src={updateicon2} alt='icon' className='h-[20px]'></img>
             <div className='text-[16px] font-normal'>Updated 3 minutes ago</div>

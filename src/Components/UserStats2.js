@@ -3,8 +3,8 @@ import tickicon from '../Assets/tickicon.png'
 
 const UserStats2 = () => {
   return (
-    <div className='flex h-[500px] w-full mt-[50px] gap-[30px]'>
-      <div className='bg-white w-[760px] h-[460px] border-2 flex flex-col justify-start place-items-start p-4 font-base'>
+    <div className='flex h-[480px] w-full mt-[50px] gap-[30px]'>
+      <div className='bg-white w-[760px] h-[450px] border-2 flex flex-col justify-start place-items-start p-4 font-base'>
         <h1 className='text-2xl text-black opacity-80'>2017 Sales</h1>
         <p className='text-sm text-gray-400'>All products including Taxes</p>
         <div className='w-full h-[375px] border-b flex justify-center place-items-center'>Tab graph</div>

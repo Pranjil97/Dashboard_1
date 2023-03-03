@@ -6,7 +6,7 @@ import UserStats2 from './UserStats2'
 
 const DashboardData = () => {
   return (
-    <div className='flex m-16 h-fit flex-col'>
+    <div className='flex m-10 h-fit flex-col'>
       <Widgets data={data}/>
       <UserStats1/>
       <UserStats2/>
